@@ -1,0 +1,23 @@
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: rgb(240 50 50);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    font-size: 2.5cm;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+.heart {
+    width: 30mm;
+    aspect-ratio: 1;
+    border-image:
+        radial-gradient(#d795fa 70% ,#0000 70%)
+        84.5% fill/100%;
+    clip-path: polygon(0 0,100% 0,100% 41%,50% 90%,0 41%);
+}

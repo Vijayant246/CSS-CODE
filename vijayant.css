@@ -1,0 +1,19 @@
+<style>
+    h1{
+        text-align: center;
+        color: rgb(255,0,0);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 40px;
+}
+h2{
+    text-align :right;
+}
+h3{
+    text-align :left;
+}
+body {
+    background-color: rgb(255,251,151);
+}
+
+</style>
